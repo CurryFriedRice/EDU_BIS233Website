@@ -1,0 +1,32 @@
+*{
+	border-style: solid;
+	border-width: 1px;
+
+
+}
+
+body{
+
+	background-color:green;
+	background-image:url("../Images/CS+Wallpaper.png");
+}
+
+.headerLogo{
+text-align: :auto;
+}
+
+.margin{
+	height:100%; 
+}
+
+.contentText, .contentTitle{
+	margin:10px;
+}
+.post, .quickNav, .navBar{
+	margin-top: 10px;
+}
+
+.affiliates{
+	margin:10px 0px;
+
+}

@@ -1,0 +1,53 @@
+
+body{
+	background-attachment: fixed;
+	background-repeat: none;
+	background-image:url("../Resources/Wallpaper.png");
+}
+
+h1.headerLogo, div.footerStuff{
+text-align: auto;
+padding-left:10px;
+color:white;
+}
+
+.contentText, .contentTitle{
+	margin:10px;
+	color:#E8E8E8;
+}
+
+.post, .quickNav, .navBar, .headerLogo, .postContent{
+	margin-top: 10px;
+	/*	
+	border-style: solid;
+	border-width:1px; 
+	*/
+	border-radius:10px;
+}
+
+h3.contentTitle{
+	background-color:#666666;
+	padding:0px;
+}
+
+div.post, div.quickNav,	div.navBar{
+	background-color:#666666;
+
+}
+
+.affiliates{
+	margin:10px 0px;
+}
+
+
+.postContent, .footerStuff{
+	float:left;
+}
+
+.postContent{
+	min-height: 2056px;
+	background-color:#333333;
+	}
+	
+div.footerStuff{
+min-height:128px;}

@@ -1,0 +1,77 @@
+/*Main Content Setup*/
+
+/*The Body fills the entire screen but isn't where everything is applied
+*Instead The body is here to mainly hold a background.
+*/
+body{
+	min-width: 960px;
+	width:100%;
+	margin:-1px;
+}
+
+	/*This is where the main content's body is, 
+	*Everything fits in here which fits in the body
+	*/
+.mainContent{
+	/*Comment Some of this stuff out when done*/
+	max-width: 960px;
+	margin:auto;
+
+	background-position: top;
+	min-width:960px;
+	width:960px;
+	height:100%;
+}
+
+
+/*Margin Settings
+*Applied to All cells to make it uniform
+*
+*
+*/
+.cell1, .cell2,
+.cell3, .cell4,
+.cell5, .cell6,
+.cell7, .cell8,
+.cell9, .cell10,
+.cell11, .cell12{
+display: inline;
+float:left;	
+margin-left: 9px;
+margin-right:9px;
+margin:9px;
+}
+
+
+
+/*
+*setups Bigger number = More space taken
+*Make sure you add it up to 12 cells(e.g. 10+2 or 11+1 or 4+8)
+*If it exceeds 12 it'll automatically move to the next Line
+*
+*
+*
+*/
+
+
+.cell1{width:60px;}
+.cell2{width:140px;}
+.cell3{width:220px;}
+.cell4{width:300px;}
+.cell5{width:380px;}
+.cell6{width:460px;}
+.cell7{width:540px;}
+.cell8{width:620px;}
+.cell9{width:700px;}
+.cell10{width:780px;}
+.cell11{width:860px;}
+.cell12{width:940px;}
+
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+
+}
